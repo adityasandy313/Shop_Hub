@@ -2,14 +2,14 @@ import React from 'react'
 import ReactDom from 'react-dom'
 import "./index.css"
 
-import {books} from './books'
-import Book from  './Book'
+import {prods} from './products'
+import Product from  './Product'
 function Greet()
 {
   return (
     <section className='shelf'>
-          {books.map((book)=>{
-            return <Book key={book.id} {...book}></Book>
+          {prods.map((prod)=>{
+            return <Product key={prod.id} {...prod}></Product>
           })}
     </section>
   )
