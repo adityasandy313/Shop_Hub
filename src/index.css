@@ -72,6 +72,7 @@ h5{
 }
 .bgprod:hover{
     transform: translateY(-10px);
+    box-shadow: 10px 10px 30px black;
 }
 .pic{
     max-width: 400px;
@@ -79,4 +80,54 @@ h5{
     max-height: 220px;
     min-height: 220px;
     border-radius: 10px;
+}
+.top ul{
+        list-style-type: none;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: rgb(125, 130, 189);
+    
+}
+.top li{
+    float: left;
+}
+.top a{
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        transition: 0.4s;
+}
+.elements a:hover{
+    background-color: rgb(61, 111, 132);
+}
+.bar{
+    border: 1px black;
+    transition: 2.8s;
+}
+.bar:hover{
+    background-color: rgb(125, 130, 189);
+}
+.bar:hover div{
+    width:25px;
+    background-color: black;
+}
+.bar div{
+    height: 3px;
+    background-color: black;
+    margin: 3px 0px;
+}
+.one{
+    width: 25px;
+}
+.two{
+    width: 15px;
+}
+.three{
+    width: 20px;
 }

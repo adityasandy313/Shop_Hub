@@ -1,17 +1,19 @@
 import React from 'react'
 import ReactDom from 'react-dom'
 import "./index.css"
-
+import NavTop from './Top-navbar'
 import {prods} from './products'
 import Product from  './Product'
 function Greet()
 {
   return (
+    <>
+    <NavTop/>
     <section className='shelf'>
           {prods.map((prod)=>{
             return <Product key={prod.id} {...prod}></Product>
           })}
-    </section>
+    </section></>
   )
 }
 
