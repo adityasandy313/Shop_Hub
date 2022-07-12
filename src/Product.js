@@ -6,7 +6,8 @@ const Product=(props)=>{
     window.alert('Order Placed')
    }
         const {Img,Pname,price}=props;
-               return( <div className='bgprod'>
+               return( 
+               <div className='bgprod'>
                 <img className="pic" src={Img} alt="no" />
                 <h3>{Pname}</h3>
                 <h5>{price}</h5>
